@@ -1,253 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-    <div class="top">
-        <head>
-            <title>
-                Alex's guide to shrimp keeping
-            </title>
-            <style type="text/css">
-                body {
-                    padding-left: 300px;
-                    padding-right: 300px;
-                    background-color: aliceblue;
-                }
-                .center {
-                    text-align: center;
-                    color: darkred;
-                }
-                .pic {
-                    display: block;
-                    margin-left: auto;
-                    margin-right: auto;
-                    width: 100%;
-                }
-                {background-color: black}
+	<div class="top">
+		<head>
+			<title>
+				Alex's guide to shrimp keeping
+			</title>
+			
+			<link rel="stylesheet" href="styles.css">
+			<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+			<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+			<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+			<link rel="manifest" href="site.webmanifest">
+			<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+			<meta name="msapplication-TileColor" content="#da532c">
+			<meta name="theme-color" content="#ffffff">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		</head>
+	</div>
 
-                /* Dropdown Button */
-                /*.dropbtn {
-                    display: inline-block;
-                    color: white;
-                    text-align: center;
-                    padding: 14px 16px;
-                    text-decoration: none;
-                    transition-duration: 0.4s;*/
-                }
+	<body>
+	<h1 class="center">Alex's guide to shrimp keeping</h1>
 
-                /* The container <div> - needed to position the dropdown content */
-                /*.dropdown {
-                  position: relative;
-                  display: inline-block;*/
-                }
+	<div class="navbar">
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="research.html">What to look for</a></li>
+		<li><a class="active" href="preparation.html">Research</a></li>
+		<li><a href="setting.html">Setting up the tank</a></li>
+		<li><a href="next.html">What's next?</a></li>
+		<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn">Gallery</a>
+			<div class="dropdown-content">
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+			</div>
+		</li>
+		<li><a href="aboutme.html">About me</a></li>
+		<li><a href="#contact us">Contact Us</a></li>
+	</ul>
+	</div>
 
-                /* Dropdown Content (Hidden by Default) */
-                /*.dropdown-content {
-                  display: none;
-                  position: absolute;
-                  background-color: #f1f1f1;
-                  min-width: 160px;
-                  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-                  z-index: 1;*/
-                }
+	
+	<div class="substrate">
+		<h3>Substrates</h3>
+		<p>
+			There are generally two types of substrates. Those that contain nutrients for plants, and those that are purely just gravel or sand. Most plants would be fine obtaining nutrients only from the water column so you wouldn't have to get <strong>expensive</strong> nutrient rich substrate, but do research on your plants beforehand. It is also reccomended to get a substrate that is not too coarse (gravel), but also not too fine (soil).
+		</p>
+	</div>
 
-                /* Links inside the dropdown */
-                /*.dropdown-content a {
-                  color: black;
-                  padding: 12px 16px;
-                  text-decoration: none;
-                  display: block;
-                }*/
+	<div class="filtration">
+		<h3>Filtration</h3>
+		<p>
+			It is reccomended to get a filter that has a filtration rate (litres per hour) of at least 10x the size of your tank in litres. I would personally recommend <strong>hang on filters</strong> as they also act as a surface skimmer. The most important part is ensuring that your filter has a "biological medium" for bacteria to grow on, and does not contain any form of activated carbon since this will remove all forms of nutrients needed by the plants.
+		</p>
+	</div>
 
-                /* Change color of dropdown links on hover */
-                /*.dropdown-content a:hover {background-color: #ddd;}*/
+	<div class="plants">
+		<h3>Plants</h3>
+		<p>
+			It is up to you to decide which plants you would like to have. You only need to ensure that both the plants and the shrimps you will get will have similar temperature requirements. You also have to make sure that you buy plants in accordance with your lighting and CO2 content of your tank.
+		</p>
+	</div>
 
-                /* Show the dropdown menu on hover */
-                /*.dropdown:hover .dropdown-content {display: block;}*/
+	<h3>Now that you have done some research, its time to go</h3>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2388.8368384704004!2d6.557637715902396!3d53.220773791810565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c9cd4f85d44a23%3A0x5f4eaab3cce140b!2sFrits%20Kuiper%20Groningen!5e0!3m2!1sen!2snl!4v1642704654197!5m2!1sen!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
-                /* Change the background color of the dropdown button when the dropdown content is shown */
-                /*.dropdown:hover .dropbtn {background-color: #3e8e41;}*/
-
-
-                a.button {
-                    background-color: #04AA6D;
-                    appearance: button;
-                    color: white;
-                    padding: 16px;
-                    font-size: 16px;
-                    border: none;
-                }
-                a.buttons {
-                    background-color: #04AA6D;
-                    color: white;
-                    padding: 16px;
-                    font-size: 16px;
-                    border: none;
-                    position: relative;
-                    left: 40%;
-                    text-decoration:none;
-
-                }
-                .buttons:hover {
-                    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-                }
-
-                .disabled {
-                    background-color: #04AA6D;
-                    color: white;
-                    padding: 16px;
-                    font-size: 16px;
-                    border: none;
-                    position: relative;
-                    left: 40%;
-                    opacity: 0.6;
-                    cursor: not-allowed;
-                    text-decoration:none;
-                }
-                
-                ul.breadcrumb {
-                padding: 8px 16px;
-                list-style: none;
-                background-color: aliceblue;
-                }
-
-                ul.breadcrumb li {
-                    display: inline;
-                }
-
-                ul.breadcrumb li+li:before {
-                  padding: 8px;
-                  color: black;
-                  content: "/\00a0";
-                }
-
-                ul.breadcrumb li a {
-                    color: green;
-                }
-
-                ul {
-                    list-style-type: none;
-                    margin: 0;
-                    padding: 0;
-                    overflow: hidden;
-                    background-color: #738090;
-                    border-radius: 25px;
-                }
-
-                li {
-                    float: left;
-                }
-
-                li a, .dropbtn {
-                    display: inline-block;
-                    color: white;
-                    text-align: center;
-                    padding: 14px 16px;
-                    text-decoration: none;
-                    transition-duration: 0.4s;
-                }
-
-                li a:hover, .dropdown:hover .dropbtn {
-                    background-color: gainsboro;
-                }
-
-                li.dropdown {
-                    display: inline-block;
-                }
-
-                .dropdown-content {
-                    display: none;
-                    position: absolute;
-                    background-color: white;
-                    min-width: 160px;
-                    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-                    z-index: 1;
-                }
-
-                .dropdown-content a {
-                    color: black;
-                    padding: 12px 16px;
-                    text-decoration: none;
-                    display: block;
-                    text-align: left;
-                }
-
-                .dropdown-content a:hover {
-                    background-color: #f1f1f1;
-                }
-
-                .dropdown:hover .dropdown-content {
-                    display: block;
-                }
-
-                .active {
-                    background-color: #04AA6D;
-                }
+		<br>
+		<br>
+		<br>
+		<a class="buttons" href="research.html">Previous</a>
+		<a class="buttons" href="setting.html">Next</a>
 
 
-            </style>
-        </head>
-    </div>
-
-    <body>
-    <div class="navbar">
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="research.html">What to look for</a></li>
-        <li><a class="active" href="preparation.html">Research</a></li>
-        <li><a href="setting.html">Setting up the tank</a></li>
-        <li><a href="next.html">What's next?</a></li>
-        <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">Gallery</a>
-            <div class="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-            </div>
-        </li>
-        <li><a href="aboutme.html">About me</a></li>
-        <li><a href="#contact us">Contact Us</a></li>
-    </ul>
-    </div>
-
-
-    <h1 class="center">Alex's guide to shrimp keeping</h1>
-    
-        <div class="substrate">
-            <h3>Substrates</h3>
-            <p>
-                There are generally two types of substrates. Those that contain nutrients for plants, and those that are purely just gravel or sand. Most plants would be fine obtaining nutrients only from the water column so you wouldn't have to get <strong>expensive</strong> nutrient rich substrate, but do research on your plants beforehand. It is also reccomended to get a substrate that is not too coarse (gravel), but also not too fine (soil).
-            </p>
-        </div>
-        <div class="filtration">
-            <h3>Filtration</h3>
-            <p>
-                It is reccomended to get a filter that has a filtration rate (litres per hour) of at least 10x the size of your tank in litres. I would personally recommend <strong>hang on filters</strong> as they also act as a surface skimmer. The most important part is ensuring that your filter has a "biological medium" for bacteria to grow on, and does not contain any form of activated carbon since this will remove all forms of nutrients needed by the plants.
-            </p>
-        </div>
-        <div class="plants">
-            <h3>Plants</h3>
-            <p>
-                It is up to you to decide which plants you would like to have. You only need to ensure that both the plants and the shrimps you will get will have similar temperature requirements. You also have to make sure that you buy plants in accordance with your lighting and CO2 content of your tank.
-            </p>
-        </div>
-
-        <h3>Now that you have done some research, its time to go</h3>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2388.8368384704004!2d6.557637715902396!3d53.220773791810565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c9cd4f85d44a23%3A0x5f4eaab3cce140b!2sFrits%20Kuiper%20Groningen!5e0!3m2!1sen!2snl!4v1642704654197!5m2!1sen!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
-        <br>
-        <br>
-        <br>
-        <a class="buttons" href="research.html">Previous</a>
-        <a class="buttons" href="setting.html">Next</a>
-
-        <ul class="breadcrumb">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="research.html">What to look for</a></li>
-        <li><a href="preparation.html">Research</a></li>
-        <li><a href="setting.html">Setting up the tank</a></li>
-        <li><a href="next.html">What's next?</a> </li>
-        <li><a href="aboutme.html">About me</a></li>
-    </ul>
-
-    </body>
+	</body>
 
 </html>
