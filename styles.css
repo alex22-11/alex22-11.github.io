@@ -21,14 +21,12 @@ body {
 					width: min(90%, 70.5rem);
 				}
 
-				a.buttons {
+				a.buttons {	
 					background-color: #738090 ;
 					color: white;
 					padding: 1rem;
 					font-size: 16px;
-					border: none;
-					position: absolute;
-					left: 45%;
+					border-radius: 15px;
 					text-decoration:none;
 				}
 				.buttons:hover {
@@ -39,12 +37,14 @@ body {
 					color: white;
 					padding: 1rem;
 					font-size: 16px;
-					border: none;
-					position: absolute;
-					left: 40%;
+					border-radius: 15px;
 					opacity: 0.6;
 					cursor: not-allowed;
 					text-decoration:none;
+				}
+
+				.nav {
+					text-align: center;
 				}
 				
 
@@ -55,7 +55,7 @@ body {
 					padding: 0;
 					overflow: hidden;
 					background-color: #738090;
-					border-radius: 25px;
+					border-radius: 15px;
 				}
 				li {
 					float: left;
