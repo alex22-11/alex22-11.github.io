@@ -21,6 +21,17 @@
 		width: min(90%, 70.5rem);
 
 	}
+	.row {
+		display: flex;
+	}
+
+
+	.column {
+		flex: auto;
+		padding: 10px;
+		height: auto;
+
+	}
 
 	a.buttons {	
 		background-color: #738090 ;
@@ -49,7 +60,12 @@
 		text-align: center;
 	}
 				
+	button{
+		background-color: #04AA6D;
+		color: white;
+	}
 
+	#more {display: none;}
 							
 .topnav {
 	overflow: hidden;
