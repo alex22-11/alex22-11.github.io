@@ -30,6 +30,7 @@
 			  <a href="preparation.html" class="active">Research</a>
 			  <a href="setting.html">Setting up the tank</a>
 			  <a href="next.html">What's next?</a>
+			  <a href="gallery.html">Gallery</a>
 			  <a href="aboutme.html">About me</a>
 			  <a href="contact.html">Contact</a>
 			  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -92,9 +93,7 @@
 					As the name implies, test strips are a strip with multiple tests. All you have to do is dip the strip in the aquarium, wait a minute, and you should see the results immediately.
 				</p>
 				<p>
-				<div class="row">
 
-					<div class="column">
 
 						<h3>Benefits of test strips:</h2>
 						<ul>
@@ -104,37 +103,29 @@
 							<li>Can test multiple parameters</li>
 						</ul> 
 
-					</div>
+			
 
-					<div class="column">
 
-						<img src="teststrip.png" width="50%">
+
+						<img src="teststrip.png" alt="test strips" width="50%">
 						
-					</div>
 
-				</div>
+
 
 				<p>With test drops, you would have to individually buy all the tests for every different parameter you are testing. Not only is it expensive, but it is also very time consuming and takes up a lot of space. The benefit is that it is significantly more accurate than the test strips. Afterall, why bother testing your water if the results are going to be extremely inaccurate?
 				<br><br>
 				The good news is your local fish store has a "drop test kit" available. Meaning you do not have to individually buy all the pieces. Click on the image below to see more details.</p>
 
-				<div class="row">
-
-					<div class="column">
+			
 
 						<a href="https://www.fritskuiper.nl/webshop/aquarium-toebehoren/colombo-aquatest-testlab-professional/#cc-m-product-8098281961" target="_blank">
-        				 <img alt="aquatest" src="aquatest-professional.png" >
+        				 <img alt="aquatest" src="aquatest-professional.png" width="60%" >
         				</a>
 
-					</div>
 
-					<div class="column">
-
-						<img src="aquatest.png" width="50%">
-						
-					</div>
-
-				</div>
+						<img src="aquatest.png" width="60%">
+				
+				
 					</span>
 				</p>
 				<button onclick="readMore()" id="myBtn">Read more</button>
@@ -154,32 +145,32 @@
 	</div>
 
 	<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
 
-function readMore() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
+		function readMore() {
+			var dots = document.getElementById("dots");
+			var moreText = document.getElementById("more");
+			var btnText = document.getElementById("myBtn");
 
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more"; 
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less"; 
-    moreText.style.display = "inline";
-  }
-}
+		  	if (dots.style.display === "none") {
+				dots.style.display = "inline";
+				btnText.innerHTML = "Read more"; 
+				moreText.style.display = "none";
+		  	} else {
+				dots.style.display = "none";
+				btnText.innerHTML = "Read less"; 
+				moreText.style.display = "inline";
+			}
+		}
 
-</script>
+	</script>
 
 	</body>
 
